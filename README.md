@@ -5,5 +5,10 @@ Para este projeto foram escolhidos 4 anos de eleições a nivel nacional para re
 # Coleta dos dados
 
 O primeiro passo a ser feito foi a coleta dos seguintes dados:
-- De votações que foi feita diretamente do site do TSE (Tribunal Superior Eleitoral)
-- De latitude e longitude dos estados que foi feita diretamente do site do IBGE 
+- Coleta dos dados de votações que foi feita diretamente do site do TSE (Tribunal Superior Eleitoral)
+- Coleta dos dados de latitude e longitude dos estados que foi feita através de pesquisa com IA
+- Coleta das URL's com fotos dos candidatos na internet para uma melhor apresentabilidade dos dados
+
+# Tratamento dos Dados
+
+O segundo passo foi o processo tratamento dos dados consistindo na limpeza e padronização dos mesmos, o software usado para tratamento dos dados foi o Pentaho Data Integration
