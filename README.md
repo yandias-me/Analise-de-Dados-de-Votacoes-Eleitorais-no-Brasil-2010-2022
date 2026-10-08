@@ -4,4 +4,6 @@ Para este projeto foram escolhidos 4 anos de eleições a nivel nacional para re
 
 # Coleta dos dados
 
-O primeiro passo a ser feito foi a coleta dos dados de votações, a coleta foi feita diretamente do site do TSE (Tribunal Superior Eleitoral)
+O primeiro passo a ser feito foi a coleta dos seguintes dados:
+- De votações que foi feita diretamente do site do TSE (Tribunal Superior Eleitoral)
+- De latitude e longitude dos estados que foi feita diretamente do site do IBGE 
