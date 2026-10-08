@@ -1,0 +1,1 @@
+# Analise-de-Dados-de-Votacoes-Eleitorais-no-Brasil-2010-2022
