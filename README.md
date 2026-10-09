@@ -4,11 +4,19 @@ Para este projeto foram escolhidos 4 anos de eleições a nivel nacional para re
 
 # Coleta dos dados
 
-O primeiro passo a ser feito foi a coleta dos seguintes dados:
+O primeiro passo feito foi a coleta dos seguintes dados:
 - Coleta dos dados de votações que foi feita diretamente do site do TSE (Tribunal Superior Eleitoral)
 - Coleta dos dados de latitude e longitude dos estados que foi feita através de pesquisa com IA
-- Coleta das URL's com fotos dos candidatos na internet para uma melhor apresentabilidade dos dados
+- Coleta das URL's com fotos dos candidatos para apresentação dos dados
+
+# Escolha das colunas a serem analisadas 
+
+O segundo passo feito foi a escolha das colunas com os dados a serem analisados para que seja feita uma análise objetiva dos dados com o intuito de responder as perguntas que podem vir a surgir referente às votações das eleições como por exemplo: "Qual o estado que teve mais votos?", "Qual cidade teve menos votos?", "Qual foi a quantidade total de votos?"
+
+# Criação de Tabelas da Área de STAGE
+
+Feito a escolha das colunas a serem analisadas partimos para a criação das tabelas da área de STAGE via PostgreSQL, primeiramente criamos um banco com o nome stage_votacoes e nesse banco criamos as tabelas
 
 # Tratamento dos Dados
 
-O segundo passo foi o processo tratamento dos dados consistindo na limpeza e padronização dos mesmos, o software usado para tratamento dos dados foi o Pentaho Data Integration
+O terceiro passo foi o processo de tratamento dos dados usando o Pentaho Data Integration consistindo na limpeza e padronização dos mesmos,  o tratamento foi feito inteiramente numa área de STAGE criada justamente para esse processo de tratamento com o intuito de preparar os dados para que eles sejam posteriormente transferidos para o Data Warehouse 
