@@ -15,17 +15,22 @@ O segundo passo feito foi a escolha das colunas com os dados a serem analisados 
 
 # Criação de Tabelas da Área de STAGE
 
-Feito a escolha das colunas a serem analisadas partimos para a criação das tabelas da área de STAGE via PostgreSQL, primeiramente foi criado um banco com o nome stage_votacoes e nesse banco foram criadas as tabelas conforme descrito no arquivo criacao_tabela_stage.sql, a área de STAGE foi criada para o processo de tratamento dos dados tendo como intuito preparar os dados para que eles sejam posteriormente transferidos para o Data Warehouse
+Feito a escolha das colunas a serem analisadas partimos para o terceiro passo que é a criação das tabelas da área de STAGE via PostgreSQL, primeiramente foi criado um banco com o nome stage_votacoes e nesse banco foram criadas as tabelas conforme descrito no arquivo criacao_tabela_stage.sql, a área de STAGE foi criada para o processo de tratamento dos dados tendo como intuito preparar os dados para que eles sejam posteriormente transferidos para o Data Warehouse, o modelo de stage criado está apresentado no arquivo Tabelas STAGE.png
 
 # Tratamento dos Dados e Carga na área de STAGE
 
-O terceiro passo foi o processo de tratamento dos dados e carga dos dados na área de STAGE usando o Pentaho Data Integration consistindo na limpeza e padronização dos mesmos conforme descrito nos arquivos .ktr contidos dentro da pasta com o nome de STAGE
+O quarto passo foi o processo de tratamento dos dados e carga dos dados na área de STAGE usando o Pentaho Data Integration consistindo na limpeza e padronização dos mesmos conforme descrito nos arquivos .ktr contidos dentro da pasta com o nome de STAGE
 
 # Análise Exploratória STAGE
 
-O quarto passo a ser realizado após o tratamento e carga no STAGE foi fazer a análise exploratória dos dados atraves de consultas SQL no PgAdmin(PostgreSQL) descritas nos arquivos analise_exploratoria_distinct_tabelas_stage.sql e analise_exploratoria_valores_null_tabelas_stage , esse passo teve como finalidade:
+O quinto passo a ser realizado após o tratamento e carga no STAGE foi fazer a análise exploratória dos dados atraves de consultas SQL no PgAdmin(PostgreSQL) descritas nos arquivos analise_exploratoria_distinct_tabelas_stage.sql e analise_exploratoria_valores_null_tabelas_stage , esse passo teve como finalidade:
 - Verificar a quantidade total de linhas de cada tabela do STAGE.
 - Verificar se os dados das colunas das tabelas estão corretos e se não haviam repetições de dados.
 - Verificar se tinha algum campo da tabela com valor nulo.
+
+# Criação de Tabelas do Data Warehouse (Tabelas Fato e Dimensão)
+
+O sexto passo foi a criação das tabelas do modelo de Data Warehouse via comandos SQL no PgAdmin(PostgreSQL) descritos no arquivo criacao_tabela_datawarehouse.sql, o modelo 
+
 
 
