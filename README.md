@@ -5,9 +5,9 @@ Para este projeto foram escolhidos 4 anos de eleições a nivel nacional para re
 # Coleta dos dados
 
 O primeiro passo feito foi a coleta dos seguintes dados:
-- Coleta dos dados de votações e dos arquivos "leiame" que foi feita diretamente do site do TSE (Tribunal Superior Eleitoral),
-- Coleta dos dados de latitude e longitude dos estados que foi feita através de pesquisa com IA e colocada manualmente em uma planilha com o nome de: estados_lat_long.csv
-- Coleta das URL's com fotos dos candidatos para apresentação dos dados e colocada manualmente em uma planilha com o nome de candidatos_presidentes.csv
+- Coleta dos dados de votações e dos arquivos "leiame" que foi feita diretamente do site do TSE (Tribunal Superior Eleitoral).
+- Coleta dos dados de latitude e longitude dos estados que foi feita através de pesquisa com IA e colocada manualmente em uma planilha com o nome de: estados_lat_long.csv.
+- Coleta das URL's com fotos dos candidatos para apresentação dos dados e colocada manualmente em uma planilha com o nome de candidatos_presidentes.csv.
 
 # Escolha das colunas a serem analisadas 
 
@@ -42,7 +42,7 @@ O oitavo passo realizado foi a análise exploratória dos dados contidos dentro 
 
 # Criação dos Dashboards no Power BI
 
-O nono e ultimo passo foi a criação dos Dashboards no Power BI confrome apresentado no arquivo Análise Eleições para Presidente.pbix, foi feita a conexão do Power BI com o PostgreSQL e assim montado o relatório final em apenas 1 aba.
+O nono e ultimo passo foi a criação dos Dashboards no Power BI confrome apresentado no arquivo Análise Eleições para Presidente.pbix, foi feita a conexão do Power BI com o PostgreSQL e assim montado o relatório final em apenas 1 aba mostrando o "overview" geral dos votos no Brasil nos anos de 2010, 2014, 2018 e 2022.
 
 
 
