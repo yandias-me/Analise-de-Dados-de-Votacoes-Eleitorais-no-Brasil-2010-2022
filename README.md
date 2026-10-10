@@ -30,7 +30,11 @@ O quinto passo a ser realizado após o tratamento e carga no STAGE foi fazer a a
 
 # Criação de Tabelas do Data Warehouse (Tabelas Fato e Dimensão)
 
-O sexto passo foi a criação das tabelas do modelo de Data Warehouse via comandos SQL no PgAdmin(PostgreSQL) descritos no arquivo criacao_tabela_datawarehouse.sql, o modelo 
+O sexto passo foi a criação das tabelas do modelo de Data Warehouse via comandos SQL no PgAdmin(PostgreSQL) descritos no arquivo criacao_tabela_datawarehouse.sql, o modelo de Data Warehouse criado está apresentado no arquivo Tabelas DATA WAREHOUSE.png
+
+# Transferencia dos dados para Data Warehouse
+
+O sétimo passo foi a transferencia dos dados da área de STAGE para o Data Warehouse 
 
 
 
