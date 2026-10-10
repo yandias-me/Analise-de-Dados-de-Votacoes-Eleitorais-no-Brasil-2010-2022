@@ -34,7 +34,7 @@ O sexto passo foi a criação das tabelas do modelo de Data Warehouse via comand
 
 # Transferencia dos dados para Data Warehouse
 
-O sétimo passo foi a transferencia dos dados da área de STAGE para o Data Warehouse usando o Pentaho Data Integration
+O sétimo passo foi a transferencia dos dados da área de STAGE para o Data Warehouse usando o Pentaho Data Integration conforme descrito nos arquivos .ktr continos dentro da pasta com o nome de DATA WAREHOUSE
 
 
 
