@@ -23,7 +23,7 @@ O quarto passo foi o processo de tratamento dos dados e carga dos dados na área
 
 # Análise Exploratória STAGE
 
-O quinto passo realizado após o tratamento e carga no STAGE foi fazer a análise exploratória dos dados através de consultas SQL no PgAdmin(PostgreSQL) descritas nos arquivos analise_exploratoria_distinct_tabelas_stage.sql e analise_exploratoria_valores_null_tabelas_stage , esse passo teve como finalidade:
+O quinto passo realizado após o tratamento e carga no STAGE foi fazer a análise exploratória dos dados através de consultas SQL no PgAdmin(PostgreSQL) descritas nos arquivos analise_exploratoria_distinct_tabelas_stage.sql e analise_exploratoria_valores_null_tabelas_stage.sql , esse passo teve como finalidade:
 - Verificar a quantidade total de linhas de cada tabela do STAGE.
 - Verificar se os dados das colunas das tabelas estão corretos e se não haviam repetições de dados.
 - Verificar se tinha algum campo da tabela com valor nulo.
