@@ -11,7 +11,7 @@ O primeiro passo feito foi a coleta dos seguintes dados:
 
 # Escolha das colunas a serem analisadas 
 
-O segundo passo feito foi a escolha das colunas com os dados a serem analisados para que seja feita uma análise objetiva dos mesmos tendo como intuito responder à perguntas que podem vir a surgir referente às votações das eleições como por exemplo: "Qual o estado que teve mais votos?", "Qual cidade teve menos votos?", "Qual foi a quantidade total de votos?"
+O segundo passo feito foi a escolha das colunas com os dados a serem analisados para que seja feita uma análise objetiva dos mesmos tendo como intuito responder à perguntas que podem vir a surgir referente às votações das eleições como por exemplo: "Qual o estado que teve mais votos?", "Qual cidade teve menos votos?", "Qual foi a quantidade total de votos?", as colunas escolhidas estão descritas no arquivo Colunas Selecionadas para Analise.png
 
 # Criação de Tabelas da Área de STAGE
 
