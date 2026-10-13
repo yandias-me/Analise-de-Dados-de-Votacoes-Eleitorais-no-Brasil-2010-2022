@@ -42,7 +42,7 @@ O oitavo passo realizado foi a análise exploratória dos dados contidos dentro 
 
 # Criação dos Dashboards no Power BI
 
-O nono e ultimo passo foi a criação dos Dashboards no Power BI confrome apresentado no arquivo Análise Eleições para Presidente.pbix, foi feita a conexão do Power BI com o PostgreSQL e assim montado o relatório final em apenas 1 aba mostrando o "overview" geral dos votos no Brasil nos anos de 2010, 2014, 2018 e 2022.
+O nono e ultimo passo foi a criação dos Dashboards no Power BI confrome apresentado no arquivo Análise Eleições para Presidente.pbix, foi feita a conexão do Power BI com o PostgreSQL e assim montado o relatório final em apenas 1 aba mostrando o "overview" geral dos votos no Brasil nos anos de 2010, 2014, 2018 e 2022. Ao mexer no BI ele só vai aparecer a foto do candidato e o nome do candidato vencedor ao selecionar o turno e o ano da eleição.
 
 
 
